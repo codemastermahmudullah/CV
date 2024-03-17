@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.parent{
+    height:100%;
+    width:45% ;
+  background-color: rgb(227,234,220);
+  position: relative;
+  /* font-size: 10px; */
+  /* display: flex; */
+  /* justify-content: flex-end; */
+}
+ 
+.img img{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+   margin-left: 50px;
+   margin-top: 50px;
+   border: 3px solid white;
+}
+.contain{
+    margin-left: 30px;
+   margin-top: 20px;
+   
+}
+.contain p{
+    margin: 8px 0;
+}
+.contain p i{
+    padding-right: 10px ;
+}
+.contain::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width:25%;
+    height: 1px;
+    margin: 6px 0;
+}
+.contain a{
+    color: black;
+}
+.hero-contain{
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.hero-contain::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width:25%;
+    height: 1px;
+    margin: 6px 0;
+ 
+}
+.sub-contain{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+.sub-contain p{
+    margin: 6px 0;
+}
+.left{
+    font-size: 13px;
+}
+ 
+.sub-hero{
+   background-color:rgb(255,255,255);
+   height: 95%;
+   width: 67%;
+   position: absolute;
+   left: 30%;
+   right: 0;
+   top: 30px;
+   bottom: 20px;
+   font-size: 12px;
+}
+.text{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+.sub-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    margin: 8px 0;
+    margin-left: 15px;    
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+}
+.text::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width:100%;
+    height: 1px;
+    margin: 8px 0;
+}
+.sow{
+    margin: 8px 0;
+    margin-left: 25px;
+
+}
+.change{
+    margin: 8px 0;
+    margin-left:25px;
+    margin-right: 20PX;
+    display: flex;
+    justify-content: space-between;
+}
+.rell ul{
+    margin: 20px;
+    padding-left: 5px; 
+}
